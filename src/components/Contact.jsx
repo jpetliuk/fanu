@@ -1,6 +1,29 @@
 const Contact = () => {
-  return (
-    <div>Contact</div>
-  )
-}
-export default Contact
+   return (
+      <section
+         id="contact"
+         className="bg-black flex flex-col gap-10 items-center justify-center p-20"
+      >
+         <h2 className="italic text-[#FEE085] font-light text-5xl">
+            CONTACT{" "}
+            <span className="italic text-[#FAF9F6] font-bold">INFO</span>
+         </h2>
+         <div className="flex gap-20 items-center justify-center">
+            <img className="h-50 w-50 rounded-full bg-[url('/assets/contact-photo.png')] bg-center bg-cover bg-no-repeat" />
+            <div className="text-left">
+               <p className="w-100 mb-10 text-lg text-[#FAF9F6]">
+                  For any enquires or to schedule a quick meeting please e-mail
+                  me or send me a whatsapp at:
+               </p>
+               <p className="text-[#FEE085] mb-2.5 italic cursor-pointer underline underline-offset-2 text-lg">
+                  manuelfandinio@gmail.com
+               </p>
+               <p className="text-[#FEE085] italic cursor-pointer underline underline-offset-2 text-lg">
+                  (+54) 11 30187582
+               </p>
+            </div>
+         </div>
+      </section>
+   );
+};
+export default Contact;

@@ -1,9 +1,16 @@
 const Hero = () => {
    return (
-      <header>
-         <h1>MANUEL FANDIÑO</h1>
-         <h2>Composer, Sound Designer & Audio Engineer</h2>
-         <p>
+      <header id="hero" className="w-dvw h-dvh flex flex-col items-center justify-between bg-[url('/assets/hero-background.jpg')] bg-[0%_42%] bg-cover bg-no-repeat">
+         <div className="mt-12">
+            <h1 className="text-7xl font-bold text-[#FAF9F6]">
+               MANUEL FANDIÑO
+            </h1>
+            <hr className="text-[#FAF9F6]" />
+            <h2 className="text-3xl text-[#FAF9F6]">
+               Composer, Sound Designer & Audio Engineer
+            </h2>
+         </div>
+         <p className="text-xl mb-12 italic text-[#FAF9F6]">
             “Pushing the boundaries of storytelling through immersive
             soundscapes”
          </p>
