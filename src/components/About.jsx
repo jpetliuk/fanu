@@ -5,7 +5,7 @@ const About = () => {
          id="about"
       >
          <div className="w-full h-full bg-[#141414B3]">
-            <h2 className="italic pt-16 text-[#FEE085] font-light text-5xl">
+            <h2 className="italic pt-16 text-[#FEE085] font-light text-4xl">
                ABOUT <span className="italic text-[#FAF9F6] font-bold">ME</span>
             </h2>
             <div className="flex justify-center items-center bg-blue-40 mt-10 w-3/4 mx-auto gap-20">
@@ -18,7 +18,7 @@ const About = () => {
                      />
                   </div>
                </div>
-               <p className="text-justify text-lg w-2xl">
+               <p className="text-justify text-base w-2xl">
                   <p>
                      Hi, I'm{" "}
                      <span className="text-[#FEE085] font-medium">FANÜ</span>,

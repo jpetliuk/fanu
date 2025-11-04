@@ -4,9 +4,9 @@ const Footer = () => {
    return (
       <footer
          id="footer"
-         className="flex justify-between items-center bg-[#292929] h-16 px-10"
+         className="flex justify-between items-center bg-[#292929] h-14 px-10"
       >
-         <div className="">Copyright © 2025 Fanü</div>
+         <div className="text-sm">Copyright © 2025 Fanü</div>
          <div className="flex items-center justify-center">
             <SocialIcon
                network="youtube"
@@ -41,7 +41,7 @@ const Footer = () => {
                className="cursor-pointer"
             />
          </div>
-         <div className="">Powered by Fanü</div>
+         <div className="text-sm">Powered by Fanü</div>
       </footer>
    );
 };

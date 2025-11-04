@@ -17,7 +17,7 @@ const Clients = () => {
          id="Clients"
          className="bg-black flex flex-col gap-10 items-center justify-center p-20"
       >
-         <h2 className="italic text-[#FEE085] text-5xl font-bold">CLIENTS</h2>
+         <h2 className="italic text-[#FEE085] text-4xl font-bold">CLIENTS</h2>
 
          <div className="flex items-center mb-4 mt-12">
             <div className="h-20 w-50 bg-[url('/assets/clients-assets/logos/warner-chappell-logo.png')] bg-center bg-fill bg-no-repeat hover:scale-105 duration-300 cursor-pointer" />

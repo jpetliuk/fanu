@@ -2,19 +2,19 @@ const Releases = () => {
    return (
       <div
          id="releases"
-         className="bg-[url('/assets/releases-background.png')] w-screen h-[200vh] bg-contain bg-repeat"
+         className="bg-[url('/assets/releases-background.png')] w-screen bg-contain bg-repeat"
       >
          <div className="bg-black/70 w-full h-full flex flex-col items-center">
-            <h2 className="italic text-[#FAF9F6] font-bold py-16 text-5xl">
+            <h2 className="italic text-[#FAF9F6] font-bold py-16 text-4xl">
                RECENT{" "}
                <span className="italic text-[#FEE085] font-light">
                   RELEASES
                </span>
             </h2>
-            <div id="videos">
+            <div id="videos" className="flex flex-col items-center">
                <iframe
-                  width="1028"
-                  height="540"
+                  width="928"
+                  height="500"
                   src="https://www.youtube.com/embed/OinGz723g5Y?si=XrSnprKXnDwPg3zN"
                   title="YouTube video player"
                   frameborder="0"
@@ -22,7 +22,7 @@ const Releases = () => {
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
                ></iframe>
-               <div className="flex justify-between my-5">
+               <div className="flex justify-between gap-5 my-5">
                   <iframe
                      width="504"
                      height="260"
