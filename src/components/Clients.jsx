@@ -27,7 +27,7 @@ const Clients = () => {
          <div className="grid grid-cols-5 gap-5">
             {images.map((image) => (
                <img
-                  className={`h-50 w-50 hover:scale-105 duration-300 cursor-pointer `}
+                  className="h-50 w-50 hover:scale-105 duration-300 cursor-pointer"
                   src={`/assets/clients-assets/${image}`}
                   alt="client project"
                />
