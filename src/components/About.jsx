@@ -1,15 +1,15 @@
 const About = () => {
    return (
       <section
-         className="w-dvw h-[800px] bg-[url('/assets/about-background.jpg')] bg-[0%_35%] bg-cover bg-no-repeat"
+         className="w-screen bg-[url('/assets/about-background.jpg')] bg-[0%_35%] bg-cover bg-no-repeat"
          id="about"
       >
-         <div className="w-full h-full bg-[#141414B3]">
+         <div className="w-full min-h-[700px] pb-15 px-10 bg-[#141414B3]">
             <h2 className="italic pt-16 text-[#FEE085] font-light text-4xl">
                ABOUT <span className="italic text-[#FAF9F6] font-bold">ME</span>
             </h2>
-            <div className="flex justify-center items-center bg-blue-40 mt-10 w-3/4 mx-auto gap-20">
-               <div className="w-2xl justify-end flex">
+            <div className="flex flex-wrap justify-center items-center mt-10 mx-auto gap-20">
+               <div className="w-100 justify-end flex">
                   <div className="h-110 w-100 overflow-hidden flex items-center">
                      <img
                         className="object-cover h-150 w-120"
@@ -18,8 +18,8 @@ const About = () => {
                      />
                   </div>
                </div>
-               <p className="text-justify text-base w-2xl">
-                  <p>
+               <div className="text-justify -mt-10 text-base w-lg min-w-lg">
+                  <p className="mb-5">
                      Hi, I'm{" "}
                      <span className="text-[#FEE085] font-medium">FANÜ</span>,
                      an artist from Buenos Aires specializing in{" "}
@@ -37,7 +37,7 @@ const About = () => {
                      . I graduated from EMC, a university affiliated with
                      Berklee.
                   </p>
-                  <p>
+                  <p className="mb-5">
                      I work with{" "}
                      <span className="text-[#FEE085] font-medium">Mixing</span>,{" "}
                      <span className="text-[#FEE085] font-medium">
@@ -62,10 +62,18 @@ const About = () => {
                   </p>
                   <p>
                      I work across many genres and especially enjoy projects
-                     that challenge me creatively. My main tools include Logic,
-                     Pro Tools, Ableton, and DaVinci.
+                     that challenge me creatively. My main tools include{" "}
+                     <span className="text-[#FEE085] font-medium">Logic</span>,{" "}
+                     <span className="text-[#FEE085] font-medium">
+                        Pro Tools
+                     </span>
+                     ,{" "}
+                     <span className="text-[#FEE085] font-medium">Ableton</span>{" "}
+                     and{" "}
+                     <span className="text-[#FEE085] font-medium">DaVinci</span>
+                     .
                   </p>
-               </p>
+               </div>
             </div>
          </div>
       </section>

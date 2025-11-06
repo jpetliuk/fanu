@@ -4,7 +4,7 @@ const Footer = () => {
    return (
       <footer
          id="footer"
-         className="flex justify-between items-center bg-[#292929] h-14 px-10"
+         className="flex flex-wrap justify-between items-center bg-[#292929] h-14 px-10"
       >
          <div className="text-sm">Copyright © 2025 Fanü</div>
          <div className="flex items-center justify-center">

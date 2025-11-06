@@ -42,7 +42,7 @@ const Releases = () => {
             </h2>
             <div
                id="spotify"
-               className="flex items-center justify-between mb-5 gap-10"
+               className="flex items-center justify-between mb-5 gap-0 md:gap-10"
             >
                <div>
                   <h2 className="text-base font-thin text-[#FEE085] mb-[-8px]">
@@ -87,13 +87,13 @@ const Releases = () => {
                   Your browser does not support the video tag.
                </video>
 
-               <div className="flex justify-between gap-5 my-5">
+               <div className="flex flex-wrap justify-center items-center lg:justify-between gap-5 my-5">
                   {/* First smaller video */}
                   <video
                      width="504"
                      height="284"
                      controls
-                     className="rounded-lg shadow-lg"
+                     className="rounded-lg shadow-lg w-[908px] md:w-[504px] md:h-[284px]"
                   >
                      <source
                         src="./assets/videos/Berry_SD_teaser.mp4"
@@ -107,7 +107,7 @@ const Releases = () => {
                      width="504"
                      height="284"
                      controls
-                     className="rounded-lg shadow-lg"
+                     className="rounded-lg shadow-lg w-[908px] md:w-[504px] md:h-[284px]"
                   >
                      <source
                         src="./assets/videos/Horror_trailer_clip_1.mp4"

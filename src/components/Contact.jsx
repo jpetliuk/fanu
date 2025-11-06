@@ -2,15 +2,15 @@ const Contact = () => {
    return (
       <section
          id="contact"
-         className="bg-black flex flex-col gap-10 items-center justify-center p-20"
+         className="bg-black flex flex-col gap-10 items-center justify-center py-20"
       >
          <h2 className="italic text-[#FEE085] font-light text-4xl">
             CONTACT{" "}
             <span className="italic text-[#FAF9F6] font-bold">INFO</span>
          </h2>
-         <div className="flex gap-20 items-center justify-center">
+         <div className="flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center">
             <img className="h-50 w-50 rounded-full bg-[url('/assets/contact-photo.png')] bg-center bg-cover bg-no-repeat" />
-            <div className="text-left">
+            <div className="text-center md:text-left">
                <p className="w-100 mb-10 text-base text-[#FAF9F6]">
                   For any enquires or to schedule a quick meeting please e-mail
                   me or send me a whatsapp at:
