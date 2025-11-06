@@ -53,7 +53,7 @@ const Releases = () => {
                      src="https://open.spotify.com/embed/playlist/54p2rfy9UlW1AFcYzkcI4O?utm_source=generator&theme=0"
                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                      allowFullScreen
-                     loading="lazy"
+                     loading="eager"
                      title="Spotify Player"
                   />
                </div>
@@ -66,45 +66,58 @@ const Releases = () => {
                      src="https://open.spotify.com/embed/playlist/7ANRlQIjT3JiMflk08syoy?utm_source=generator&theme=0"
                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                      allowFullScreen
-                     loading="lazy"
+                     loading="eager"
                      title="Spotify Player"
                   />
                </div>
             </div>
+
             <div id="videos" className="flex flex-col items-center">
-               <iframe
+               {/* Main video */}
+               <video
                   width="908"
                   height="511"
-                  src="https://www.youtube.com/embed/OinGz723g5Y?si=XrSnprKXnDwPg3zN"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-               ></iframe>
+                  controls
+                  className="rounded-lg shadow-lg object-cover" // Added some styling for better appearance
+               >
+                  <source
+                     src="./assets/videos/Nike-Running_Isn't_Just_Running_by_Manuel_Fandino.mp4"
+                     type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+               </video>
+
                <div className="flex justify-between gap-5 my-5">
-                  <iframe
+                  {/* First smaller video */}
+                  <video
                      width="504"
                      height="284"
-                     src="https://www.youtube.com/embed/OinGz723g5Y?si=XrSnprKXnDwPg3zN"
-                     title="YouTube video player"
-                     frameborder="0"
-                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                     referrerpolicy="strict-origin-when-cross-origin"
-                     allowfullscreen
-                  ></iframe>
-                  <iframe
+                     controls
+                     className="rounded-lg shadow-lg"
+                  >
+                     <source
+                        src="./assets/videos/Berry_SD_teaser.mp4"
+                        type="video/mp4"
+                     />
+                     Your browser does not support the video tag.
+                  </video>
+
+                  {/* Second smaller video */}
+                  <video
                      width="504"
                      height="284"
-                     src="https://www.youtube.com/embed/OinGz723g5Y?si=XrSnprKXnDwPg3zN"
-                     title="YouTube video player"
-                     frameborder="0"
-                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                     referrerpolicy="strict-origin-when-cross-origin"
-                     allowfullscreen
-                  ></iframe>
+                     controls
+                     className="rounded-lg shadow-lg"
+                  >
+                     <source
+                        src="./assets/videos/Horror_trailer_clip_1.mp4"
+                        type="video/mp4"
+                     />
+                     Your browser does not support the video tag.
+                  </video>
                </div>
             </div>
+
             <div
                id="sample_songs"
                className="flex max-w-6xl mb-15 mt-5 flex-wrap items-center justify-center gap-y-2.5 -gap-x-10"
