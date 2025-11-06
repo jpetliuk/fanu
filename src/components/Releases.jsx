@@ -4,13 +4,13 @@ const Releases = () => {
          name: "Sangre - Klave",
          spotify_link:
             "https://open.spotify.com/embed/track/7kCPx2PxgEhgGqnkooHjWJ?utm_source=generator",
-         photo: "sangre.png",
+         photo: "sangre.webp",
       },
       {
          name: "Creo en Mi - Alturas, Alan Sutton",
          spotify_link:
             "https://open.spotify.com/embed/track/3I4dtugbDqZdKJwFZlUY2u?utm_source=generator",
-         photo: "plastico.png",
+         photo: "plastico.webp",
       },
 
       {
@@ -24,14 +24,14 @@ const Releases = () => {
          name: "Otra Vez - Klave",
          spotify_link:
             "https://open.spotify.com/embed/track/66tUIwWi0hCmJaU8BP3C6Y?utm_source=generator",
-         photo: "otra_vez.jpg",
+         photo: "otra_vez.webp",
       },
    ];
 
    return (
       <div
          id="releases"
-         className="bg-[url('/assets/releases-background.png')] w-screen bg-contain bg-repeat"
+         className="bg-[url('/assets/releases-background.webp')] w-screen bg-contain bg-repeat"
       >
          <div className="bg-black/70 w-full h-full flex flex-col items-center">
             <h2 className="italic text-[#FAF9F6] font-bold py-16 text-4xl">

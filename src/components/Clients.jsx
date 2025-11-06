@@ -1,15 +1,15 @@
 const Clients = () => {
    const images = [
-      "alturas.png",
-      "sangre.png",
-      "plastico.png",
-      "berry-1.jpg",
-      "otra_vez.jpg",
-      "berry-2.jpg",
-      "frio.png",
+      "alturas.webp",
+      "sangre.webp",
+      "plastico.webp",
+      "berry-1.webp",
+      "otra_vez.webp",
+      "berry-2.webp",
+      "frio.webp",
       "tan_mal.png",
-      "dead_inside.jpg",
-      "no_perdamo_el_tiempo.png",
+      "dead_inside.webp",
+      "no_perdamo_el_tiempo.webp",
    ];
 
    return (

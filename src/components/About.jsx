@@ -13,7 +13,7 @@ const About = () => {
                   <div className="h-110 w-100 overflow-hidden flex items-center">
                      <img
                         className="object-cover h-150 w-120"
-                        src="./assets/about-photo.png"
+                        src="./assets/about-photo.webp"
                         alt="manuel fandiño picture"
                      />
                   </div>
