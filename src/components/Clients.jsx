@@ -1,15 +1,15 @@
 const Clients = () => {
    const images = [
       "alturas.png",
+      "sangre.png",
+      "plastico.png",
+      "berry-1.jpg",
+      "otra_vez.jpg",
+      "berry-2.jpg",
       "frio.png",
-      "IMG_2111.jpg",
-      "IMG_2112.jpg",
-      "IMG_2139.jpg",
-      "IMG_2140.jpg",
-      "tan-mal.png",
-      "",
-      "",
-      "",
+      "tan_mal.png",
+      "dead_inside.jpg",
+      "no_perdamo_el_tiempo.png",
    ];
 
    return (
@@ -28,7 +28,7 @@ const Clients = () => {
             {images.map((image) => (
                <img
                   className="h-50 w-50 hover:scale-105 duration-300 cursor-pointer"
-                  src={`/assets/clients-assets/${image}`}
+                  src={`./assets/clients-assets/${image}`}
                   alt="client project"
                />
             ))}
