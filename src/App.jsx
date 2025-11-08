@@ -9,14 +9,14 @@ import Footer from "./components/Footer";
 
 function App() {
    return (
-      <>
+      <div className="">
          <Hero />
          <Releases />
          <About />
          <Clients />
          <Contact />
          <Footer />
-      </>
+      </div>
    );
 }
 export default App;

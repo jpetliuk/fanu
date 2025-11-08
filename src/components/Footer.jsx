@@ -4,10 +4,13 @@ const Footer = () => {
    return (
       <footer
          id="footer"
-         className="flex flex-wrap justify-between items-center bg-[#292929] h-14 px-10"
+         className="grid grid-cols-1 sm:grid-cols-3 pt-2 pb-5 sm:py-0 gap-2 w-screen bg-[#292929] min-h-14"
       >
-         <div className="text-sm">Copyright © 2025 Fanü</div>
-         <div className="flex items-center justify-center">
+         <div className="col-span-full order-3 sm:order-none sm:col-span-1 my-auto ">
+            Copyright © 2025 Fanü
+         </div>
+
+         <div className="col-span-full order-1 sm:order-none sm:col-span-1 my-auto">
             <SocialIcon
                network="youtube"
                url="https://linkedin.com/in/couetilc"
@@ -41,7 +44,10 @@ const Footer = () => {
                className="cursor-pointer"
             />
          </div>
-         <div className="text-sm">Powered by Fanü</div>
+
+         <div className="col-span-full order-2 sm:order-none sm:col-span-1 my-auto">
+            Powered by Fanü
+         </div>
       </footer>
    );
 };

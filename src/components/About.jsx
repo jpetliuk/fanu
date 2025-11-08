@@ -1,24 +1,24 @@
 const About = () => {
    return (
       <section
-         className="w-screen bg-[url('/assets/about-background.jpg')] bg-[0%_35%] bg-cover bg-no-repeat"
+         className="w-screen bg-[url('/assets/about-background.jpg')] bg-[0%_35%] bg-cover bg-no-repeat w-screen"
          id="about"
       >
          <div className="w-full min-h-[700px] pb-15 px-10 bg-[#141414B3]">
-            <h2 className="italic pt-16 text-[#FEE085] font-light text-4xl">
+            <h2 className="italic pt-16 text-[#FEE085] font-light text-3xl sm:text-4xl">
                ABOUT <span className="italic text-[#FAF9F6] font-bold">ME</span>
             </h2>
             <div className="flex flex-wrap justify-center items-center mt-10 mx-auto gap-20">
                <div className="w-100 justify-end flex">
-                  <div className="h-110 w-100 overflow-hidden flex items-center">
+                  <div className="h-70 sm:h-110 w-100 overflow-hidden flex items-center">
                      <img
-                        className="object-cover h-150 w-120"
+                        className="object-cover h-70 sm:h-150 w-120 px-10 sm:px-0"
                         src="./assets/about-photo.webp"
                         alt="manuel fandiño picture"
                      />
                   </div>
                </div>
-               <div className="text-justify -mt-10 text-base w-lg min-w-lg">
+               <div className="text-justify -mt-10 text-base w-lg sm:min-w-lg">
                   <p className="mb-5">
                      Hi, I'm{" "}
                      <span className="text-[#FEE085] font-medium">FANÜ</span>,

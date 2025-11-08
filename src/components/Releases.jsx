@@ -29,12 +29,12 @@ const Releases = () => {
    ];
 
    return (
-      <div
+      <section
          id="releases"
          className="bg-[url('/assets/releases-background.webp')] w-screen bg-contain bg-repeat"
       >
          <div className="bg-black/70 w-full h-full flex flex-col items-center">
-            <h2 className="italic text-[#FAF9F6] font-bold py-16 text-4xl">
+            <h2 className="italic text-[#FAF9F6] font-bold py-16 text-3xl sm:text-4xl">
                RECENT{" "}
                <span className="italic text-[#FEE085] font-light">
                   RELEASES
@@ -42,7 +42,7 @@ const Releases = () => {
             </h2>
             <div
                id="spotify"
-               className="flex items-center justify-between mb-5 gap-0 md:gap-10"
+               className="flex items-center justify-between mb-5 flex-col sm:flex-row gap-0 md:gap-10"
             >
                <div>
                   <h2 className="text-base font-thin text-[#FEE085] mb-[-8px]">
@@ -72,13 +72,13 @@ const Releases = () => {
                </div>
             </div>
 
-            <div id="videos" className="flex flex-col items-center">
-               {/* Main video */}
+            <div id="videos" className="flex flex-col w-[95vw] items-center">
                <video
                   width="908"
                   height="511"
                   controls
-                  className="rounded-lg shadow-lg object-cover" // Added some styling for better appearance
+                  poster="./assets/videos/Nike_Running-poster.png"
+                  className="rounded-lg shadow-lg mb-0 sm:mb-5 object-cover"
                >
                   <source
                      src="./assets/videos/Nike-Running_Isn't_Just_Running_by_Manuel_Fandino.mp4"
@@ -87,13 +87,11 @@ const Releases = () => {
                   Your browser does not support the video tag.
                </video>
 
-               <div className="flex flex-wrap justify-center items-center lg:justify-between gap-5 my-5">
-                  {/* First smaller video */}
+               <div className="flex items-center px-0 md:px-10 gap-2 mt-2 md:mt-0 md:gap-5 justify-between">
                   <video
-                     width="504"
-                     height="284"
                      controls
-                     className="rounded-lg shadow-lg w-[908px] md:w-[504px] md:h-[284px]"
+                     poster="./assets/videos/Berry_SD-poster.png"
+                     className="rounded-lg shadow-lg aspect-video w-1/2 h-auto object-cover"
                   >
                      <source
                         src="./assets/videos/Berry_SD_teaser.mp4"
@@ -101,13 +99,10 @@ const Releases = () => {
                      />
                      Your browser does not support the video tag.
                   </video>
-
-                  {/* Second smaller video */}
                   <video
-                     width="504"
-                     height="284"
                      controls
-                     className="rounded-lg shadow-lg w-[908px] md:w-[504px] md:h-[284px]"
+                     poster="./assets/videos/Horror_trailer-poster.png"
+                     className="rounded-lg shadow-lg aspect-video w-1/2 h-auto object-cover"
                   >
                      <source
                         src="./assets/videos/Horror_trailer_clip_1.mp4"
@@ -120,12 +115,12 @@ const Releases = () => {
 
             <div
                id="sample_songs"
-               className="flex max-w-6xl mb-15 mt-5 flex-wrap items-center justify-center gap-y-2.5 -gap-x-10"
+               className="flex mb-15 mt-5 flex-wrap items-center justify-center gap-5 sm:gap-0"
             >
                {sample_songs.map((song) => (
-                  <div className="flex flex-col items-center -mx-3 justify-center">
+                  <div className="flex flex-col items-center justify-center scale-100 sm:scale-90 gap-3">
                      <img
-                        className="h-60 w-60  duration-300 cursor-pointer"
+                        className="h-70 w-70  duration-300 cursor-pointer"
                         src={`./assets/clients-assets/${song.photo}`}
                         alt={song.name}
                      />
@@ -133,16 +128,17 @@ const Releases = () => {
                         src={song.spotify_link}
                         title="Spotify Player"
                         height="80"
+                        width="300"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         allowFullScreen
                         loading="lazy"
-                        className="w-full rounded-2xl scale-85"
+                        className="rounded-2xl"
                      />
                   </div>
                ))}
             </div>
          </div>
-      </div>
+      </section>
    );
 };
 export default Releases;
