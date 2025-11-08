@@ -18,7 +18,7 @@ const Hero = () => {
             soundscapes”
          </p>
 
-         <div className="fixed bottom-10 z-50 right-15">
+         <div className="hidden md:block fixed bottom-10 z-50 right-15">
             <a
                href="#contact"
                className="flex flex-col items-center justify-center relative group cursor-pointer"
