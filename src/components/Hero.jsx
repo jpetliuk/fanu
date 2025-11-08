@@ -17,6 +17,31 @@ const Hero = () => {
             “Pushing the boundaries of storytelling through immersive
             soundscapes”
          </p>
+
+         <div className="fixed bottom-10 z-50 right-15">
+            <a
+               href="#contact"
+               className="flex flex-col items-center justify-center relative group cursor-pointer"
+            >
+               <span
+                  className="
+            absolute bottom-full right-1/2 translate-x-1/2 
+            mb-2 px-3 py-1 bg-gray-800 text-white text-sm font-semibold rounded-lg 
+            opacity-0 invisible 
+            transition-all duration-300 
+            group-hover:opacity-100 group-hover:visible group-hover:-translate-y-2
+        "
+               >
+                  Contact
+               </span>
+
+               <img
+                  src="./assets/floating.jpeg"
+                  alt="Floating Manu"
+                  className="h-20 w-20 rotate-y-180 rounded-full object-cover shadow-2xl shadow-black"
+               />
+            </a>
+         </div>
       </header>
    );
 };
