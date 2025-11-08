@@ -2,9 +2,25 @@ const Hero = () => {
    return (
       <header
          id="hero"
-         className="w-dvw h-[90vh] sm:h-dvh flex flex-col items-center justify-between bg-[url('/assets/hero-background.webp')] bg-[10%_42%] bg-cover bg-no-repeat px-10"
+         className="w-dvw h-[80vh] sm:h-dvh flex flex-col items-center justify-between bg-[url('/assets/hero-background.webp')] bg-[20%_42%] bg-cover bg-no-repeat px-5"
       >
-         <div className="mt-12">
+         <div
+            className="
+            absolute inset-x-0 top-0 h-1/2 sm:h-1/5 
+            bg-gradient-to-b 
+            from-[#000000b5] 
+            to-transparent
+        "
+         ></div>
+         <div
+            className="
+            absolute inset-x-0 bottom-0 h-1/4 sm:h-1/5 
+            bg-gradient-to-t 
+            from-black 
+            to-transparent
+        "
+         ></div>
+         <div className="mt-12 z-10">
             <h1 className="text-[#FAF9F6] font-bold text-5xl sm:text-6xl">
                MANUEL FANDIÑO
             </h1>
@@ -13,7 +29,7 @@ const Hero = () => {
                Composer, Sound Designer & Audio Engineer
             </h2>
          </div>
-         <p className="italic text-[#FAF9F6] mb-12 text-lg">
+         <p className="italic text-[#FAF9F6] mb-8 text-lg z-10">
             “Pushing the boundaries of storytelling through immersive
             soundscapes”
          </p>
