@@ -13,7 +13,7 @@ const Footer = () => {
          <div className="col-span-full order-1 sm:order-none sm:col-span-1 my-auto">
             <SocialIcon
                network="youtube"
-               url="https://linkedin.com/in/couetilc"
+               url="https://www.youtube.com/@fanu.oficial"
                target="_blank"
                bgColor="transparent"
                fgColor="#FAF9F6"
@@ -21,7 +21,7 @@ const Footer = () => {
             />
             <SocialIcon
                network="linkedin"
-               url="https://linkedin.com/in/couetilc"
+               url="https://www.linkedin.com/in/manuel-fandiño-936b0230a/"
                target="_blank"
                bgColor="transparent"
                fgColor="#FAF9F6"
@@ -29,7 +29,7 @@ const Footer = () => {
             />
             <SocialIcon
                network="instagram"
-               url="https://linkedin.com/in/couetilc"
+               url="https://www.instagram.com/fanu__u"
                target="_blank"
                bgColor="transparent"
                fgColor="#FAF9F6"
@@ -37,7 +37,7 @@ const Footer = () => {
             />
             <SocialIcon
                network="spotify"
-               url="https://linkedin.com/in/couetilc"
+               url="https://open.spotify.com/artist/1P6m13dxleiNeRRmooeqEo?si=LvvOnF1RT0eNmxk0nEAQkA"
                target="_blank"
                bgColor="transparent"
                fgColor="#FAF9F6"
