@@ -35,9 +35,9 @@ const Releases = () => {
       >
          <div className="bg-black/70 w-full h-full flex flex-col items-center">
             <h2 className="italic text-[#FAF9F6] font-bold py-16 text-3xl sm:text-4xl">
-               RECENT{" "}
+               MY{" "}
                <span className="italic text-[#FEE085] font-light">
-                  RELEASES
+                  PORTFOLIO
                </span>
             </h2>
             <div
