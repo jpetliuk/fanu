@@ -2,7 +2,7 @@ const Hero = () => {
    return (
       <header
          id="hero"
-         className="w-dvw h-[90vh] flex flex-col items-center justify-between bg-[url('/assets/hero-background.webp')] bg-[20%_42%] bg-cover bg-no-repeat px-5"
+         className="w-dvw min-h-[100vh] max-h-[100vh] h-[100vh] flex flex-col items-center justify-between bg-[url('/assets/hero-background.webp')] bg-[20%_42%] bg-cover bg-no-repeat px-5"
       >
          <div
             className="
