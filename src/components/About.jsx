@@ -50,7 +50,7 @@ const About = () => {
                      , and{" "}
                      <span className="text-[#FEE085] font-medium">
                         Music Production
-                     </span>
+                     </span>{" "}
                      for games and visual content. Before you hire me, I'm happy
                      to provide{" "}
                      <span className="text-[#FEE085] font-medium">
