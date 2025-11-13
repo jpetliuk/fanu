@@ -53,7 +53,7 @@ const Releases = () => {
                      src="https://open.spotify.com/embed/playlist/54p2rfy9UlW1AFcYzkcI4O?utm_source=generator&theme=0"
                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                      allowFullScreen
-                     loading="eager"
+                     loading="lazy"
                      title="Spotify Player"
                   />
                </div>
@@ -66,7 +66,7 @@ const Releases = () => {
                      src="https://open.spotify.com/embed/playlist/7ANRlQIjT3JiMflk08syoy?utm_source=generator&theme=0"
                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                      allowFullScreen
-                     loading="eager"
+                     loading="lazy"
                      title="Spotify Player"
                   />
                </div>
@@ -77,6 +77,7 @@ const Releases = () => {
                   width="908"
                   height="511"
                   controls
+                  loading="lazy"
                   poster="./assets/videos/Nike_Running-poster.png"
                   className="rounded-lg shadow-lg mb-0 sm:mb-5 object-cover"
                >
@@ -90,6 +91,7 @@ const Releases = () => {
                <div className="flex items-center px-0 md:px-10 gap-2 mt-2 md:mt-0 md:gap-5 justify-between">
                   <video
                      controls
+                     loading="lazy"
                      poster="./assets/videos/Berry_SD-poster.png"
                      className="rounded-lg shadow-lg aspect-video w-1/2 h-auto object-cover"
                   >
@@ -101,6 +103,7 @@ const Releases = () => {
                   </video>
                   <video
                      controls
+                     loading="lazy"
                      poster="./assets/videos/Horror_trailer-poster.png"
                      className="rounded-lg shadow-lg aspect-video w-1/2 h-auto object-cover"
                   >
