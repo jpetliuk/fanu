@@ -30,8 +30,8 @@ const Hero = () => {
             </h2>
          </div>
          <p className="italic text-[#FAF9F6] mb-8 text-lg z-10">
-            “Pushing the boundaries of storytelling through immersive
-            soundscapes”
+            Breathing life into stories through sound that shimmers, trembles,
+            and remembers.”
          </p>
 
          <div className="hidden md:block fixed bottom-10 z-50 right-15">
