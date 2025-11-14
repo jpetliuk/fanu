@@ -1,6 +1,3 @@
 /
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Cross-Origin-Opener-Policy: same-origin
-Cross-Origin-Embedder-Policy: require-corp
-Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; require-trusted-types-for 'script'
-X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self' https://open.spotify.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; require-trusted-types-for 'script'; frame-src https://open.spotify.com https://w.soundcloud.com; connect-src 'self' https://*.spotify.com; media-src https://*.spotify.com
