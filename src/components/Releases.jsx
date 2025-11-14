@@ -83,7 +83,7 @@ const Releases = () => {
                >
                   <source
                      src="./assets/videos/Nike-Running_Isn't_Just_Running_by_Manuel_Fandino.webm"
-                     type="video/mp4"
+                     type="video/webm"
                   />
                   Your browser does not support the video tag.
                </video>
@@ -97,7 +97,7 @@ const Releases = () => {
                   >
                      <source
                         src="./assets/videos/Berry_SD_teaser.webm"
-                        type="video/mp4"
+                        type="video/webm"
                      />
                      Your browser does not support the video tag.
                   </video>
@@ -109,7 +109,7 @@ const Releases = () => {
                   >
                      <source
                         src="./assets/videos/Horror_trailer_clip_1.webm"
-                        type="video/mp4"
+                        type="video/webm"
                      />
                      Your browser does not support the video tag.
                   </video>
