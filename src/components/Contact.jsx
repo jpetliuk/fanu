@@ -9,7 +9,11 @@ const Contact = () => {
             <span className="italic text-[#FAF9F6] font-bold">INFO</span>
          </h2>
          <div className="flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center">
-            <img className="h-50 w-50 rounded-full bg-[url('/assets/contact-photo.png')] bg-center bg-cover bg-no-repeat" alt='manuel fandino profile picture' />
+            <img
+               className="h-50 w-50 rounded-full bg-center bg-cover bg-no-repeat"
+               alt="manuel fandino profile picture"
+               src="/assets/contact-photo.png"
+            />
             <div className="text-center md:text-left">
                <p className="w-100 sm:px-0 px-10 mb-10 text-base text-[#FAF9F6]">
                   For any enquires or to schedule a quick meeting please e-mail
