@@ -121,7 +121,10 @@ const Releases = () => {
                className="flex mb-15 mt-5 flex-wrap items-center justify-center gap-5 sm:gap-0"
             >
                {sample_songs.map((song) => (
-                  <div className="flex flex-col items-center justify-center scale-100 sm:scale-90 gap-3">
+                  <div
+                     key={song.name}
+                     className="flex flex-col items-center justify-center scale-100 sm:scale-90 gap-3"
+                  >
                      <img
                         className="h-70 w-70  duration-300 cursor-pointer"
                         src={`./assets/clients-assets/${song.photo}`}
