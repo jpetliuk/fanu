@@ -82,7 +82,7 @@ const Releases = () => {
                   className="rounded-lg shadow-lg mb-0 sm:mb-5 object-cover"
                >
                   <source
-                     src="./assets/videos/Nike-Running_Isn't_Just_Running_by_Manuel_Fandino.mp4"
+                     src="./assets/videos/Nike-Running_Isn't_Just_Running_by_Manuel_Fandino.webm"
                      type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -96,7 +96,7 @@ const Releases = () => {
                      className="rounded-lg shadow-lg aspect-video w-1/2 h-auto object-cover"
                   >
                      <source
-                        src="./assets/videos/Berry_SD_teaser.mp4"
+                        src="./assets/videos/Berry_SD_teaser.webm"
                         type="video/mp4"
                      />
                      Your browser does not support the video tag.
@@ -108,7 +108,7 @@ const Releases = () => {
                      className="rounded-lg shadow-lg aspect-video w-1/2 h-auto object-cover"
                   >
                      <source
-                        src="./assets/videos/Horror_trailer_clip_1.mp4"
+                        src="./assets/videos/Horror_trailer_clip_1.webm"
                         type="video/mp4"
                      />
                      Your browser does not support the video tag.
