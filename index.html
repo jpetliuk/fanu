@@ -96,6 +96,30 @@
       <!-- Apple Touch Icon -->
       <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
+      <script>
+         function loadCSS(href) {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = href;
+            link.media = "print";
+            link.onload = function () {
+               link.media = "all";
+            };
+            document.head.appendChild(link);
+         }
+
+         document.addEventListener("DOMContentLoaded", () => {
+            const viteCssLink = document.querySelector(
+               'link[rel="stylesheet"]'
+            );
+            if (viteCssLink && viteCssLink.href.includes("assets/index")) {
+               const href = viteCssLink.href;
+               viteCssLink.remove();
+               loadCSS(href);
+            }
+         });
+      </script>
+
       <!-- Structured Data (JSON-LD for Google Rich Results) -->
       <script type="application/ld+json">
          {
