@@ -30,7 +30,7 @@ const Hero = () => {
             </h2>
          </div>
          <p className="italic text-[#FAF9F6] mb-8 text-lg z-10">
-            Breathing life into stories through sound that shimmers, trembles,
+            ”Breathing life into stories through sound that shimmers, trembles,
             and remembers.”
          </p>
 
