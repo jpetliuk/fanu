@@ -71,6 +71,13 @@ const About = () => {
                      <span className="text-[#FEE085] font-medium">Ableton</span>{" "}
                      and{" "}
                      <span className="text-[#FEE085] font-medium">DaVinci</span>
+                     . Currently expanding on{" "}
+                     <span className="text-[#FEE085] font-medium">Wwise</span>,{" "}
+                     <span className="text-[#FEE085] font-medium">Fmod</span>,{" "}
+                     <span className="text-[#FEE085] font-medium">
+                        Unreal engine
+                     </span>{" "}
+                     & <span className="text-[#FEE085] font-medium">Unity</span>
                      .
                   </p>
                </div>
