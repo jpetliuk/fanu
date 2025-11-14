@@ -41,6 +41,7 @@ const Clients = () => {
          <div className="flex flex-wrap max-w-7xl items-center justify-center gap-5">
             {images.map((image) => (
                <img
+                  key={image}
                   className="h-40 w-40 sm:h-50 sm:w-50 hover:scale-105 duration-300 cursor-pointer"
                   src={`./assets/clients-assets/${image}`}
                   alt="client project"
