@@ -52,7 +52,6 @@ const Releases = () => {
                      className="w-full h-[380px] rounded-2xl border-0 scale-90"
                      src="https://open.spotify.com/embed/playlist/54p2rfy9UlW1AFcYzkcI4O?utm_source=generator&theme=0"
                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                     allowFullScreen
                      loading="lazy"
                      title="Spotify Player"
                   />
@@ -65,7 +64,6 @@ const Releases = () => {
                      className="w-full h-[380px] rounded-2xl border-0 scale-90"
                      src="https://open.spotify.com/embed/playlist/7ANRlQIjT3JiMflk08syoy?utm_source=generator&theme=0"
                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                     allowFullScreen
                      loading="lazy"
                      title="Spotify Player"
                   />
@@ -136,7 +134,6 @@ const Releases = () => {
                         height="80"
                         width="300"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        allowFullScreen
                         loading="lazy"
                         className="rounded-2xl"
                      />
